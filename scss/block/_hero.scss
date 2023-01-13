@@ -1,0 +1,55 @@
+.hero {
+    padding-top: 96px;
+    padding-bottom: 72px;
+    color: $colorWhite;
+}
+.hero__page{
+    justify-content: space-between;
+}
+.hero__inner {
+    width: 400px;
+    margin-left: 64px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: $colorWhite
+}
+.rating{
+    padding-top: 24px;
+}
+.rating li {
+    padding-right: 24px;
+}
+.hero__desc{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.hero__link{
+    color: $colorWhite;
+    background-color: $colorRed;
+    padding: 8px 16px;
+}
+.hero__link:hover{
+    opacity: .9;
+}
+.hero__list{
+    flex-direction: column;
+    padding-right: 24px;
+}
+.hero__item{
+    
+    margin-top: 16px;
+}
+.hero__item a{
+    font-size: 16px;
+    color: $colorWhite;
+    padding: 8px;
+}
+.hero__item:hover{
+    border-radius: 10px;
+    background-color: $colorRed;
+    cursor: pointer;
+}
