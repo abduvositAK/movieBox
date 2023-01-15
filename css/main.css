@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
 }
@@ -169,6 +173,7 @@ a {
 }
 
 .top__list {
+  margin-top: 48px;
   justify-content: space-between;
 }
 
@@ -219,12 +224,60 @@ a {
 }
 
 .trailer__list {
+  margin-top: 48px;
   justify-content: space-between;
 }
 
 .trailer__title {
+  margin-top: 12px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
   color: #111827;
+}
+
+.actors {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.actors__list {
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+.actors__item img {
+  width: 230px;
+  height: 330px;
+}
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer__social {
+  margin: 24px auto;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.footer__link {
+  margin: 24px auto;
+  width: 500px;
+  justify-content: space-between;
+}
+.footer__link .footer__item a {
+  font-weight: 700;
+  font-size: 18px;
+  color: #111827;
+}
+
+.footer__copy {
+  margin-top: 24px;
+  text-align: center;
+}
+.footer__copy span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #6B7280;
 }/*# sourceMappingURL=main.css.map */

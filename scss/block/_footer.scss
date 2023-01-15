@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer__social {
+    margin: 24px auto;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.footer__link {
+    margin: 24px auto;
+    width: 500px;
+    justify-content: space-between;
+
+    .footer__item a {
+        font-weight: 700;
+        font-size: 18px;
+        color: #111827;
+    }
+}
+
+.footer__copy {
+    margin-top: 24px;
+    text-align: center;
+
+    span {
+        font-weight: 700;
+        font-size: 18px;
+        color: #6B7280;
+    }
+}
